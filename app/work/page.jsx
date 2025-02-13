@@ -49,8 +49,7 @@ const projects = [
       { name: 'Next.js' },
       { name: 'React.js' },
       { name: 'Redux' },
-      { name: 'Github Action' },
-      { name: 'API integration' },
+      { name: 'Github' },
       { name: 'Tailwind.css' }
     ],
     image: '/assets/work/thumb2.png',
