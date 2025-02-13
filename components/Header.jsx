@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { Button } from "./ui/button";
+import Link from 'next/link';
+import { Button } from './ui/button';
 
 // components
-import Nav from "./Nav";
-import MobileNav from "./MobileNav";
+import Nav from './Nav';
+import MobileNav from './MobileNav';
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
         {/* logo */}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            Ross<span className="text-accent">.</span>
+            Ardiv<span className="text-accent">.</span>
           </h1>
         </Link>
 
