@@ -6,9 +6,11 @@ import {
   FaJs,
   FaReact,
   FaFigma,
-  FaNodeJs
+  FaNodeJs,
+  FaLaravel,
+  FaPython
 } from 'react-icons/fa';
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiDjango } from 'react-icons/si';
 
 // about data
 const about = {
@@ -106,7 +108,7 @@ const education = {
 const skills = {
   title: 'My skills',
   description:
-    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad rem beatae eius aut, nam adipisci deserunt perspiciatis sequi atque.',
+    "I'm familiar with modern JavaScript frameworks like React, Vue, Next, and also good at python, Django, PHP, Laravel and so on.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -135,6 +137,18 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: 'node.js'
+    },
+    {
+      icon: <FaLaravel />,
+      name: 'Laravel'
+    },
+    {
+      icon: <FaPython />,
+      name: 'python'
+    },
+    {
+      icon: <SiDjango />,
+      name: 'Django'
     },
     {
       icon: <FaFigma />,
