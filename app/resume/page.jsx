@@ -55,34 +55,19 @@ const experience = {
     'Built so many web solutions to satisfy client and company requirement using own technologies. Especially focus on frontend development using JavaScript frameworks and took part in some backend development part.',
   items: [
     {
-      company: 'Tech Solutions Inc.',
-      position: 'Full Stack Developer',
-      duration: '2022 - Present'
+      company: 'CODEPAPER TECHNOLOGIES.',
+      position: 'Senior Frontend Developer',
+      duration: '2023 - 2024'
     },
     {
-      company: 'Web Design Studio',
-      position: 'Front-End Developer Intern',
-      duration: 'Summer 2021'
+      company: 'Self employed',
+      position: 'Frontend Developer ',
+      duration: '2022 - 2023'
     },
     {
-      company: 'E-commerce Startup',
-      position: 'Freelance Web Developer',
-      duration: '2020 - 2021'
-    },
-    {
-      company: 'Tech Academy',
-      position: 'Teaching Assistant',
-      duration: '2019 - 2020'
-    },
-    {
-      company: 'Digital Agency',
-      position: 'UI/UX Designer',
-      duration: '2018 - 2019'
-    },
-    {
-      company: 'Software Development Firm',
-      position: 'Junior Developer',
-      duration: '2017 - 2018'
+      company: 'AL AiN IT Consultants Sdn Bhd',
+      position: 'Junior Frontend Developer',
+      duration: '2016 - 2022'
     }
   ]
 };
@@ -92,13 +77,8 @@ const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda veritatis ratione cumque maiores, qui pariatur sint itaque.',
+    "I hold a Bachelor's Degree in Computer Science and took part in the online courses to continue to grow and follow the latest trends in the IT industry.",
   items: [
-    {
-      institution: 'Online Course Platform',
-      degree: 'Full Stack Web Development Bootcamp',
-      duration: '2023'
-    },
     {
       institution: 'Codecademy',
       degree: 'Front-end Track',
@@ -115,14 +95,9 @@ const education = {
       duration: '2019'
     },
     {
-      institution: 'Design School',
-      degree: 'Diploma in Graphic Design',
-      duration: '2016 - 2018'
-    },
-    {
-      institution: 'Community Collage',
-      degree: 'Associate Degree in Computer Science',
-      duration: '2014 - 2016'
+      institution: 'University of Malaya',
+      degree: "Bachelor's degree in Computer Science",
+      duration: '2016'
     }
   ]
 };
