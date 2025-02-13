@@ -59,7 +59,7 @@ const projects = [
   {
     num: '03',
     category: 'fullstack',
-    title: 'project 3',
+    title: 'Shoptobi',
     description:
       'Ecommerce website to buy packages. I built this website using Laravel framworks.',
     stack: [
