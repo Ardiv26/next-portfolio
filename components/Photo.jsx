@@ -27,8 +27,9 @@ const Photo = () => {
             priority
             quality={100}
             fill
-            alt=""
+            alt="My photo"
             className="object-contain"
+            style={{ borderRadius: '50%' }}
           />
         </motion.div>
 
