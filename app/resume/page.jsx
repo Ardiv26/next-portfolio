@@ -9,7 +9,8 @@ import {
   FaNodeJs,
   FaLaravel,
   FaPython,
-  FaVuejs
+  FaVuejs,
+  FaPhp
 } from 'react-icons/fa';
 import { SiTailwindcss, SiNextdotjs, SiDjango } from 'react-icons/si';
 
@@ -142,6 +143,10 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: 'node.js'
+    },
+    {
+      icon: <FaPhp />,
+      name: 'PHP'
     },
     {
       icon: <FaLaravel />,

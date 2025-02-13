@@ -23,9 +23,9 @@ const projects = [
   {
     num: '01',
     category: 'fullstack',
-    title: 'project 1',
+    title: 'Testfiesta',
     description:
-      'Project risk management system that users can test and manage error or risk fo their own project or github repositories. We used Vuetify, Cypress, Rediss, Node.js, PostgreSQL',
+      'Project risk management system that users can test and manage error or risk fo their own project or github repositories. I mainly focused on Fronend development and sometimes took part in backend part as needed. We used Vuetify, Cypress, Redis, Node.js, PostgreSQL.',
     stack: [
       { name: 'Javascript' },
       { name: 'Vue.js' },
@@ -36,27 +36,38 @@ const projects = [
       { name: 'Cypress' }
     ],
     image: '/assets/work/thumb1.png',
-    live: 'testfiesta.com',
+    live: 'https://www.testfiesta.com/',
     github: ''
   },
   {
     num: '02',
-    category: 'fullstack',
-    title: 'project 2',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit esse cillum dolore magna.',
-    stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }, { name: 'Node.js' }],
+    category: 'frontend',
+    title: 'Protest',
+    description: '',
+    stack: [
+      { name: 'Next.js' },
+      { name: 'React.js' },
+      { name: 'Redux' },
+      { name: 'Github Action' },
+      { name: 'API integration' },
+      { name: 'Tailwind.css' }
+    ],
     image: '/assets/work/thumb2.png',
-    live: '',
+    live: 'https://www.protest.eu/nl/nl',
     github: ''
   },
   {
     num: '03',
-    category: 'frontend',
+    category: 'fullstack',
     title: 'project 3',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit esse cillum dolore magna.',
-    stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }],
+      'Ecommerce website to buy packages. I built this website using Laravel framworks.',
+    stack: [
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Tailwind.css' },
+      { name: 'NgInx' }
+    ],
     image: '/assets/work/thumb3.png',
     live: '',
     github: ''
