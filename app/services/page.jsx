@@ -8,21 +8,21 @@ const services = [
     num: '01',
     title: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet lore mauris, consectet null a ante et justo.',
+      'I build scalable, responsive web applications with modern JavaScript frameworks such as React, Next, Vue and so on.',
     href: ''
   },
   {
     num: '02',
     title: 'UI/UX Design',
     description:
-      'Lorem ipsum dolor sit amet lore mauris, consectet null a ante et justo.',
+      'UI/UX design to make client idea to life with Figma and other tools.',
     href: ''
   },
   {
     num: '03',
     title: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet lore mauris, consectet null a ante et justo.',
+      'Provide SEO solution to ensure application performance with Next.js and other SEO technologies.',
     href: ''
   }
 ];
