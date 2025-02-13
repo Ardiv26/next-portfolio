@@ -14,31 +14,27 @@ import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 const about = {
   title: 'About me',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda veritatis ratione cumque maiores, qui pariatur sint itaque.',
+    'Seasoned Frontend developer who has rich experience in bilding scalable, reactive web applications with modern JacaScript frameworks such as React, Next, Vue, Node.js, Django and so on strong focus on JavaScript frameworks .',
   info: [
     {
       fieldName: 'Name',
       fieldValue: 'Ardiv Johar Bin Johar'
     },
     {
-      fieldName: 'Phone',
-      fieldValue: '(+86) 123 456 789'
-    },
-    {
       fieldName: 'Experience',
-      fieldValue: '12+ Years'
+      fieldValue: '10+ Years'
     },
     {
       fieldName: 'Skype',
-      fieldValue: 'yourskype'
+      fieldValue: 'live:.cid.3a6da4a5ea7baa1c'
     },
     {
       fieldName: 'Nationality',
-      fieldValue: 'Chinese'
+      fieldValue: 'Malaysia'
     },
     {
       fieldName: 'Email',
-      fieldValue: 'youremail@email.com'
+      fieldValue: 'ardivdev89@hotmail.com'
     },
     {
       fieldName: 'Freelance',
@@ -46,7 +42,7 @@ const about = {
     },
     {
       fieldName: 'Languages',
-      fieldValue: 'English, Chinese'
+      fieldValue: 'English, Chinese, Malay'
     }
   ]
 };
@@ -56,7 +52,7 @@ const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda veritatis ratione cumque maiores, qui pariatur sint itaque.',
+    'Built so many web solutions to satisfy client and company requirement using own technologies. Especially focus on frontend development using JavaScript frameworks and took part in some backend development part.',
   items: [
     {
       company: 'Tech Solutions Inc.',
