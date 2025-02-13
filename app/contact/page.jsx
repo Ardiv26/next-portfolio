@@ -14,23 +14,23 @@ import {
   SelectValue
 } from '@/components/ui/select';
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaTelegram, FaLinkedin } from 'react-icons/fa';
 
 const info = [
   {
-    icon: <FaPhoneAlt />,
-    title: 'Phone',
-    description: '(+86) 123 456 789'
+    icon: <FaLinkedin />,
+    title: 'LinkedIn',
+    description: 'https://www.linkedin.com/in/ardiv-bin-29835a330'
   },
   {
     icon: <FaEnvelope />,
     title: 'Email',
-    description: 'youremail@email.com'
+    description: 'ardivdev89@hotmail.com'
   },
   {
-    icon: <FaMapMarkerAlt />,
-    title: 'Address',
-    description: 'Your address'
+    icon: <FaTelegram />,
+    title: 'Telegram',
+    description: '@Passion_219'
   }
 ];
 
@@ -53,9 +53,8 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat quidem non tempora dolores aspernatur quisquam
-                doloremque.
+                Let's make your dream to life and I provide client oriented
+                services.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -74,7 +73,6 @@ const Contact = () => {
                     <SelectLabel>Select a service</SelectLabel>
                     <SelectItem value="est">Web Development</SelectItem>
                     <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
