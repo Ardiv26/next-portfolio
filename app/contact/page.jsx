@@ -20,7 +20,7 @@ const info = [
   {
     icon: <FaLinkedin />,
     title: 'LinkedIn',
-    description: 'https://www.linkedin.com/in/ardiv-bin-29835a330'
+    description: 'linkedin.com/in/ardiv-bin-29835a330'
   },
   {
     icon: <FaEnvelope />,
@@ -37,6 +37,10 @@ const info = [
 import { motion } from 'framer-motion';
 
 const Contact = () => {
+  const handleClick = () => {
+    alert('Hello world!');
+  };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -82,7 +86,7 @@ const Contact = () => {
                 placeholder="Type your message here"
               />
               {/* btn */}
-              <Button size="md" className="max-w-40">
+              <Button size="md" className="max-w-40" onclick="handleClick()">
                 Send message
               </Button>
             </form>
