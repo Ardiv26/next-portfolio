@@ -43,7 +43,8 @@ const projects = [
     num: '02',
     category: 'frontend',
     title: 'Protest',
-    description: '',
+    description:
+      'This is the e-commerce platform that user can buy ski accessories like Ski, vest, jacket, and so on. We built this platform with React, Next, Tailwind CSS.',
     stack: [
       { name: 'Next.js' },
       { name: 'React.js' },
